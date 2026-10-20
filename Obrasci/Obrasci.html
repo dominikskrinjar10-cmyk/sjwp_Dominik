@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1> Obrasci u HTML-u</h1>
+  <form action="#" method="get">
+      <label for="Ime">Unesi ime: </label>
+      <input type="text" id="Ime" disabled placeholder="unesi ime"/> <br> 
+
+      <label for="Prezime">Unesi Prezime:</label>
+      <input type="text" id="Prezime" size="30" maxlength="7"> <br>
+
+      <label for="lozinka">unesi lozinku: </label>
+      <input type="password" id="lozinka" name="lozinka" required=""> <br>
+
+      <label for="mail">Unesi email</label> 
+      <input type="email" id="mail" name="mail"> <br>
+
+      <label for="datum">unesi datum rođenja: </label>
+      <input type="date" id="datum" required> <br>
+
+      <label for="boja">izaberi boju: </label>
+      <input type="color" name="boja1" id="boja"> <br>
+      <label for="dat">Priloži datoteku</label>
+
+      <input type="file" id="dat"> <br>
+
+      <label for="Mobitel">Unesi broj mobitela: </label>
+      <input type="tel" id="Mobitel"> <br>
+
+      <p>Odaberi najbolji klub: </p><br>
+      <input type="radio" name="klub" id="real" value="Real Madrid">
+      <label for="real">Real Madrid</label> <br>
+      <input type="radio" name="klub" id="Barcelona">
+      <label for="Barcelona">Barcelona</label> <br>
+
+      <p>Odaberi najbolji klub: </p><br>
+      <input type="checkbox" name="klub1" id="real" >
+      <label for="real">Real Madrid</label> <br>
+      <input type="checkbox" name="klub2" id="Barcelona">
+      <label for="Barcelona">Barcelona</label> <br>
+   <input type="submit" value="Pošalji"> <br>
+   <input type="reset" value="obrisi">
+  </form>
+</body>
+</html>
